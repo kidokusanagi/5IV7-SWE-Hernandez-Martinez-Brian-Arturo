@@ -1,0 +1,101 @@
+body{
+    background-color: #a23Ae8;
+    line-height: 1.3rem ;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.header{
+    background: #3D64F2 ;
+    color: white;
+    padding: 2.5rem 2rem;
+    font-size: 2rem;
+    right: 0;
+    top: 0;
+    left: 0;
+}   
+        .header a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .cabecera ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .cabecera ul li{
+            display: inline-block;
+        }
+            .cabecera ul li a{
+                display: block;
+                padding: 0.5rem 1rem;
+                transition: all 0.4s linear;
+                border-radius: 10px;
+            }
+            .cabecera ul li a:hover{
+                background: gray;
+            }
+/*Inicia body*/
+.maincontainer{
+    width: 90%;
+    max-width: 910px;
+    margin: 2rem auto;
+    border:3px;
+    border-radius: 10px;
+    justify-content: space-between;
+}            
+
+.header1{
+    background: #773DF2 ;
+    color: white;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}   
+        .header1 a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .cabecera1{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .cabecera1 ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .cabecera1 ul li{
+            display: inline-block;
+        }
+            .cabecera1 ul li a{
+                display: block;
+                padding: 0.5rem 1rem;
+                transition: all 0.4s linear;
+                border-radius: 10px;
+            }
+            .maincontainer ul li a:hover{
+                color: black;
+                background: white;
+            }
+    .frame{
+        margin: 2rem 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border: 0;
+        height: 600px;
+        border-radius: 10px;
+    }        
