@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/DES1.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>Cifrado DES</h1>
+    <br>
+    <table style="margin: 0 auto;">
+            <input class="form-control" type="file" id="archivo" oninput="leer()">
+            <br>
+            <input class="form-control" type="password" placeholder="Clave" id="clave" maxlength="8" minlength="8">
+        <td>
+            <input class="btn btn-info" type="button" value="Cifrar" onclick="cifrar()">
+        </td>
+            <br>
+        <td>
+            <input class="btn btn-primary" type="button" value="Descifrar" onclick="descifrar()">
+        </td>   
+            <p id="txt"></p>
+            <div id="resultado"></div>
+    </table>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/tripledes.js"></script>
+<script src="./js/CDES.js"></script>
+</body>
+</html>

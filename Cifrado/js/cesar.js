@@ -52,4 +52,3 @@ function descifrar(){
     document.getElementById("resultado").innerHTML=
     cesar.decode(document.getElementById("cadena").value,desp);
 }
-
